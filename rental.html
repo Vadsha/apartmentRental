@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Apartment 1</title>
+     <script src="https://kit.fontawesome.com/28670fc814.js" crossorigin="anonymous"></script>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     <link rel="stylesheet" href="rental.css">
+</head>
+<body>
+     <div class="container">
+          <div class="row justify-content-center">
+
+                         <!-- Side Bar -->
+               <div class="col-3 mainsidebar">
+                    <div class="col-3 sidebar">
+                         <h3 class="rental">Rental</h3><br>
+                         <h4 class="from99">from $99</h4><br>
+                         <h6 class="pernight">per night</h6><br>
+
+                         <form class="register" action="">
+                              <div class="form-group">
+                                   <label class="registerLabel" for="check-in"><i class="fa-regular fa-circle-check"></i> Check-in</label>
+                                   <input type="date" class="form-control">
+                              </div>
+                              <div class="form-group">
+                                   <label class="registerLabel" for="check-out"><i class="fa-regular fa-circle-check"></i> Check-out</label>
+                                   <input type="date" name="check-out" class="form-control">
+                              </div><div class="form-group">
+                                   <label class="registerLabel" for="adults"><i class="fa-solid fa-person"></i> Adults</label>
+                                   <input type="number" value="0" class="form-control">
+                              </div><div class="form-group">
+                                   <label class="registerLabel" for="kids"><i class="fa-solid fa-person-dress-simple"></i> Kids</label>
+                                   <input type="number" value="0" class="form-control">
+                              </div>
+                              <div class="btn btn-success"><i class="fa-solid fa-magnifying-glass"></i>Search Availablity</div>
+                         </form>
+
+                         <h5 class="side-footer" style="margin-top: 20px;"><a href="#apartment"><i class="fa-solid fa-table"></i> Apartment</a></h5><br>
+                         <h5 class="side-footer"><div style="cursor: pointer;" href="" class="subscribe"><i class="fa-solid fa-check"></i> Subscribe</div></h5><br>
+                         <h5 class="side-footer" style="margin-top: -5px;"><a href="#contact"><i class="fa-solid fa-envelope"></i> Contact</a></h5>
+
+                    </div>
+               </div>
+
+
+                         <!-- Main Feed -->
+               <div class="col-9 mainfeed">
+                    <h1 class="text-success" id="apartment">The Apartment</h1>
+                    <div class="image-section">
+                         <div class="main-image" id="main-image">
+                              <div class="room-name" id="room-name">Living Room</div>
+                         </div>
+                         <div class="small-images mt-2 row justify-content-space-between" style="justify-content: space-around;">
+                              <img id="0" class="small-image" style="width: 24%; margin-left: 33px;" height="90px" src="images/livingroom.jpg" alt="">
+                              <img id="1" class="small-image" style="width: 24%;" height="90px"  src="images/bedroom.jpg" alt="">
+                              <img id="2" class="small-image" style="width: 24%;" height="90px"  src="images/diningroom.jpg" alt="">
+                              <img id="3" class="small-image" style="width: 24%; margin-right: -35px;" height="90px"  src="images/livingroom2.jpg" alt="">
+                         </div>
+                    </div>
+
+                    <div class="spaces">
+                         <h2 style="font-weight: lighter;">The Space</h2>
+                         <div class="minispaces row">
+                              <div class="minis"><i class="fa-solid fa-person"></i> Max People : 4</div>
+                              <div class="minis"><i class="fa-solid fa-clock"></i> Check In : After 3PM</div>
+                              <div class="minis"><i class="fa-solid fa-door-open"></i> Bathrooms : 2</div>
+                              <div class="minis"><i class="fa-solid fa-clock"></i> Check Out: 12PM</div>
+                              <div class="minis"><i class="fa-solid fa-door-open"></i> Bedrooms : 1</div>
+                         </div>
+                    </div>
+                    <hr>
+
+                    <div class="amenities spaces">
+                         <h2 style="font-weight: lighter;">Amenities</h2>
+                         <div class="amenity row minispaces">
+                              <div class="minis"><i class="fa-solid fa-bath"></i> Shower</div>
+                              <div class="minis"><i class="fa-solid fa-kitchen-set"></i> Kitchen</div>
+                              <div class="minis"><i class="fa-solid fa-wifi"></i> Wifi</div>
+                              <div class="minis"><i class="fa-solid fa-fire"></i> Heating</div>
+                              <div class="minis"><i class="fa-solid fa-tv"></i> TV</div>
+                              <div class="minis"><i class="fa-brands fa-accessible-icon"></i> Accessible</div>
+                         </div>
+                    </div>
+                    <hr>
+
+                    <div class="extra spaces">
+                         <h2 style="font-weight: lighter;">Extra Info</h2>
+                         <p>Our apartment is really clean and we like to keep it that way. Enjoy the lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                         <p>We Accept : <i class="fa-solid fa-money-bill"></i>   <i class="fa-brands fa-cc-paypal"></i></p>
+                    </div>
+                    <hr>
+
+                    <div class="rules spaces">
+                         <h2 style="font-weight: lighter;">Rules</h2>
+                         <p>
+                              You are usually required to pay 3 months' rent in advance and after that payments can be made monthly or quarterly in advance. Some landlords may require a one-month security deposit, which is refundable at the end of the tenancy. You must pay rent within 1 week from the date the rent is due under the lease.</p>
+                         <p>Subscribe to receive updates on available dates and special offers.</p>
+                         <button class="btn btn-success subscribe" id="subscribe">Subscribe</button>
+                    </div>
+                    <hr>
+
+                    <div class="contact spaces" id="contact">
+                         <h2 style="font-weight: lighter;">Contact</h2>
+                         <div><i class="fa-solid fa-house"></i> Insein MM</div>
+                         <div><i class="fa-solid fa-phone"></i> Ph : +959890973740</div>
+                         <div><i class="fa-solid fa-envelope"></i> heinzwe2626@gmail.com</div>
+                         <div style="margin-top: 10px;">Questions? Go ahead,ask them.</div>
+                         <form action="">
+                              <div class="form-group mb-3">
+                                   <input type="text" name="name" placeholder="name" class="form-control">
+                              </div>
+                              <div class="form-group mb-3">
+                                   <input type="email" name="email" placeholder="Email" class="form-control">
+                              </div>
+                              <div class="form-group mb-3">
+                                   <input type="text" name="message" placeholder="Message" class="form-control">
+                              </div>
+                              <button class="btn btn-success">Send a Message</button>
+                         </form>
+                    </div>
+
+
+               </div>
+          </div>
+     </div>
+
+
+                              <!-- Subscribe Box -->
+     <div class="subscribeBox col-8" style="margin-left: 400px;" id="subscribeBox">
+          <div id="unsubscribe" style="text-align: end; margin-right: 9px; cursor: pointer; font-size: 1.2rem;"><i class="fa-solid fa-circle-xmark mt-2"></i></div>
+          <h1 style="text-align: center; margin-top: 15px;">SUBSCRIBE</h1>
+          <h5 style="text-align: center; margin-bottom: 20px;">Join our mailing list to receive updates on available dates and special offers.</h5>
+          <form action="" class="text-center">
+               <div class="form-group mb-2">
+                    <input type="email"  name="email" placeholder="Enter e-mail" class="form-control" style=" width: 98%;margin: 0 10px;">
+               </div>
+               <button class="btn mt-2 btn-success mb-3" style="width: 150px;">Subscribe</button>
+          </form>
+     </div>
+     <script src="rental.js"></script>
+</body>
+</html>
+
+
